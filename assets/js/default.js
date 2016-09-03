@@ -56,7 +56,7 @@ $(function() {
         width: $(window).width(),
         height: 300,
         onInit: function(term) {
-            var msg = "Welcome.\n";
+            var msg = "Welcome to promptEquation, if you need assistance just type help.\n";
             typed_message(term, msg, 20, function() {
             });
         },
